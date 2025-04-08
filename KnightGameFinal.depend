@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1744123316 source:d:\knightgamefinal\main.cpp
+	<iostream>
+	"def.h"
+	"graphics.h"
+	"knightSprite.h"
+	"entity_sprite.h"
+	"game_logic.h"
+	"game_render.h"
+	"menu.h"
+	"score_manipulate.h"
+
+1744123453 d:\knightgamefinal\def.h
+	<iostream>
+
+1744123316 d:\knightgamefinal\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"def.h"
+	"collision_map.h"
+	<vector>
+	<iostream>
+
+1744123316 d:\knightgamefinal\collision_map.h
+	<iostream>
+	"def.h"
+	<vector>
+
+1744123426 d:\knightgamefinal\knightsprite.h
+
+1744123426 d:\knightgamefinal\entity_sprite.h
+
+1744123316 d:\knightgamefinal\game_logic.h
+	<SDL.h>
+	"knight.h"
+	"entity.h"
+
+1744123316 d:\knightgamefinal\knight.h
+	<SDL.h>
+	<SDL_image.h>
+	"collision_map.h"
+	"collision_check.h"
+	"def.h"
+
+1744123316 d:\knightgamefinal\collision_check.h
+
+1744123316 d:\knightgamefinal\entity.h
+	"knight.h"
+	"collision_check.h"
+	"collision_map.h"
+
+1744123316 d:\knightgamefinal\game_render.h
+	"graphics.h"
+	"knight.h"
+	"entity.h"
+
+1744123316 d:\knightgamefinal\menu.h
+
+1744123316 d:\knightgamefinal\score_manipulate.h
+	<fstream>
+	<string>
+	<iostream>
+	<SDL.h>
+	<SDL_ttf.h>
+	"Graphics.h"
+
